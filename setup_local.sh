@@ -14,8 +14,6 @@ yes | python2 scripts/download_weights.py && mkdir -p api
 
 cd api && echo "" > __init__.py
 cd ../
-cp ../emoji_function.py api/
-cp ../api_helper.py api/
 cp ../server.py api/ 
 cp ../emoji-lookup.csv . 
 
